@@ -112,3 +112,4 @@ exceptions: named parameters in function calls and slicing.
 - Just mentioning a variable is not really a good way for printing its contents (use print).
 - Avoid unused loop variables.
 - Most people have the tendency to explicitly calculate everything, while often a more pythonic way should be preferred.
+- No need to add `0`, e.g., `string=input[0+i:k_mer+i]`.
