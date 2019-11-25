@@ -44,7 +44,7 @@ input in a dictionary.
 - Print the content of this dictionary in english, e.g., "4 is the square of 2".
 
 
-# 5. Nested dictionaries
+# 6. Nested dictionaries
 
 Assume a dictionary that has country names as keys and as values another
 dictionary with the following keys: continent, capital, population. Example:
