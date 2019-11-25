@@ -48,6 +48,7 @@ input in a dictionary.
 
 Assume a dictionary that has country names as keys and as values another
 dictionary with the following keys: continent, capital, population. Example:
+
     {
       'The Netherlands': {
         'capital': 'Amsterdam',
@@ -69,4 +70,4 @@ dictionary with the following keys: continent, capital, population. Example:
 - Print the country with the largest population.
 - Print how many countries are from a particular continent, which is introduced
 by the user.
-- Allow for user input
+- Allow for user input to add new countries in the dictionary.
