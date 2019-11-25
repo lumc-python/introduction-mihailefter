@@ -59,7 +59,7 @@ dictionary with the following keys: continent, capital, population. Example:
         'capital': 'Paris',
         'population': 67186638,
         'continent': 'Europe',
-      }
+      },
       'USA': {
         'capital': 'Washington, D.C.',
         'population': 327167434,
@@ -67,7 +67,7 @@ dictionary with the following keys: continent, capital, population. Example:
       }
     }
 
-- Print the country with the largest population.
+- Print the country with the largest population (both its name and its population).
 - Print how many countries are from a particular continent, which is introduced
 by the user.
 - Allow for user input to add new countries in the dictionary.
