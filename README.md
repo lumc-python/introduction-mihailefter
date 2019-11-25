@@ -1,7 +1,7 @@
 Finish all the hands on sessions. Where applicable, make a python program with
 the solution and add it to this repository.
 
-Next, add a solution file for each exercise.
+Next, add a solution file for each of the following exercises.
 
 # 1. Iterate over a list
 
