@@ -1,18 +1,24 @@
-Please find below the exercises comprising this assignment.
-Add a solution file for each exercise (where applicable).
+Finish all the hands on sessions. Where applicable, make a python program with
+the solution and add it to this repository.
+
+Next, add a solution file for each exercise.
 
 # 1. Iterate over a list
 
-First we are going to make a list and fill it with a simple sequence. Then we are going to use this list to print something.
+First we are going to make a list and fill it with a simple sequence. Then we
+are going to use this list to print something.
 - Make a list containing the numbers 0, 1, ... 9.
 - Print the last 10 lines of the song ''99 bottles of beer'' using this list.
 
 # 2. Analyse a repeat structure
 
-We are going to make a repeating DNA sequence and extract some subsequences from it.
-- Make a short tandem repeat that consists of three "ACGT" units and five "TTATT" units.
+We are going to make a repeating DNA sequence and extract some subsequences
+from it.
+- Make a short tandem repeat that consists of three "ACGT" units and five
+"TTATT" units.
 - Print all suffixes of the repeat structure.
-  - **Note**: A suffix is an ending. For example, the word "spam" has five suffixes: "spam", "pam", "am", "m" and "".
+  - **Note**: A suffix is an ending. For example, the word "spam" has five
+  suffixes: "spam", "pam", "am", "m" and "".
 - Print all substrings of length 3.
 - Print all unique substrings of length 3.
 
@@ -32,24 +38,35 @@ Calculate all coordinates of the line x=y with x < 100.
 
 # 5. Dictionaries
 
-We are going to store the output of a function (f(x)=x2) together with its input in a dictionary.
+We are going to store the output of a function (f(x)=x2) together with its
+input in a dictionary.
 - Make a dictionary containing all squares smaller than 100.
 - Print the content of this dictionary in english, e.g., "4 is the square of 2".
 
-# 6. k-mer counting
 
-## (1/2)
+# 5. Nested dictionaries
 
-Remember the previous exercise of finding (unique) substrings of length 3.
-- Make a function from your implementation.
-- Have *k* as an argument to the function.
-- Test the function on several input strings.
+Assume a dictionary that has country names as keys and as values another
+dictionary with the following keys: continent, capital, population. Example:
+    {
+      'The Netherlands': {
+        'capital': 'Amsterdam',
+        'population': 17283008,
+        'continent': 'Europe',
+      },
+      'France': {
+        'capital': 'Paris',
+        'population': 67186638,
+        'continent': 'Europe',
+      }
+      'USA': {
+        'capital': 'Washington, D.C.',
+        'population': 327167434,
+        'continent': 'North America',
+      }
+    }
 
-## (2/2)
-
-Modify your function to use a dictionary with substring counts.
-- Use the substrings as dictionary keys.
-- Use the counts as dictionary values.
-- Have the function return the dictionary.
-- Add a docstring to the function.
-- Use the function to print k-mer counts for some strings.
+- Print the country with the largest population.
+- Print how many countries are from a particular continent, which is introduced
+by the user.
+- Allow for user input
